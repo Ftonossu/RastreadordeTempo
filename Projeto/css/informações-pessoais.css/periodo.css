@@ -1,8 +1,14 @@
 .periodo-tipo {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #fdfdfd;
     font-weight: 300px;
     font-size: 18px;
+    
     margin-left: 20px;
     margin-top: 12px;
+}
+.periodo-tipo:hover {
+    cursor:pointer;
+}
+.periodo {
+    color: hsl(235, 45%, 61%);
 }

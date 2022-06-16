@@ -3,3 +3,16 @@
     margin: 5% auto;
     display: flex;
 }
+body {
+    background-color: hsl(226, 43%, 10%);
+}
+.ativo {
+    color: #fdfdfd;
+    font-weight: 500;
+}
+.inativo{
+    color: hsl(235, 45%, 61%);
+}
+.invisivel {
+    display: none;
+}

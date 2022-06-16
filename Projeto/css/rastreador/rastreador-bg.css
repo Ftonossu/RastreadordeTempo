@@ -4,28 +4,43 @@
     align-items: flex-end;
     border-radius: 10px;
     margin: 0 10px;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    
 }
 .rastreador-bg:nth-child(1){
     background-color: hsl(15, 100%, 70%);
     margin-bottom: 10px;
+    background-image: url(../../images/icon-work.svg);
+    background-position: 90% -5%;
 }
 .rastreador-bg:nth-child(2){
     background-color: hsl(195, 74%, 62%); 
     margin-bottom: 10px; 
+    background-image: url(../../images/icon-play.svg);
+    background-position: 90% -5%;
 }
 .rastreador-bg:nth-child(3){
     background-color: hsl(348, 100%, 68%);
     margin-bottom: 10px;
+    background-image: url(../../images/icon-study.svg);
+    background-position: 90% -5%;
 }
 .rastreador-bg:nth-child(4){
     background-color: hsl(145, 58%, 55%);
     margin-top: 10px;
+    background-image: url(../../images/icon-exercise.svg);
+    background-position: 90% 0%;
 }
 .rastreador-bg:nth-child(5){
     background-color: hsl(264, 64%, 52%);
     margin-top: 10px;
+    background-image: url(../../images/icon-social.svg);
+    background-position: 90% 0%;
 }
 .rastreador-bg:nth-child(6){
     background-color: hsl(43, 84%, 65%);
     margin-top: 10px;
+    background-image: url(../../images/icon-self-care.svg);
+    background-position: 90% -8%;
 }
