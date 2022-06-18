@@ -16,3 +16,8 @@ body {
 .invisivel {
     display: none;
 }
+.visivel{
+    display: inline;
+    opacity: 1;
+    transition: 1s;
+}

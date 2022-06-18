@@ -21,9 +21,8 @@
   <link rel="stylesheet" href="./css/rastreador/rastreador.css">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
   
-  <title>Frontend Mentor | Time tracking dashboard</title>
+  <title>Rastreador</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -61,18 +60,19 @@
             Work           
           </h3>
           <p class="rastreador-tempo rastreador-tempo-diario">
-            5hrs <!-- daily -->
-            <!-- 32hrs weekly -->
-            <!-- 103hrs monthly -->            
+            5hrs         
           </p>
           <p class="rastreador-tempo rastreador-tempo-semanal invisivel">
             32hrs           
           </p>
-          <p class="rastreador-anterior">
-            Previous - 7hrs <!-- daily -->
-            <!-- Previous - 36hrs weekly -->
-            <!-- Previous - 128hrs monthly --> 
+          <p class="rastreador-tempo rastreador-tempo-mensal invisivel">
+            103hrs           
           </p>
+          <p class="rastreador-anterior rastreador-anterior-diario">
+            Previous - 7hrs <!-- daily -->        
+          </p>
+          <p class="rastreador-anterior rastreador-anterior-semanal invisivel">Previous - 36hrs</p>
+          <p class="rastreador-anterior rastreador-anterior-mensal invisivel">Previous - 128hrs</p>
         </div>
       </div>
     
@@ -81,16 +81,19 @@
           <h3 class="rastreador-titulo">
             Play
           </h3>
-          <p class="rastreador-tempo">
+          <p class="rastreador-tempo rastreador-tempo-diario">
             1hr <!-- daily -->
-            <!-- 10hrs weekly -->
-            <!-- 23hrs monthly -->
           </p>
-          <p class="rastreador-anterior">
+          <p class="rastreador-tempo rastreador-tempo-semanal invisivel">10hrs</p>
+          <p class="rastreador-tempo rastreador-tempo-mensal invisivel">23hrs</p>
+            
+          <p class="rastreador-anterior rastreador-anterior-diario">
             Previous - 2hrs <!-- daily -->
-            <!-- Previous - 8hrs weekly -->
-            <!-- Previous - 29hrs monthly -->
           </p>
+            <p class="rastreador-anterior rastreador-anterior-semanal invisivel">Previous - 8hrs</p>
+            <p class="rastreador-anterior rastreador-anterior-mensal invisivel">Previous - 29hrs</p>
+            
+            
         </div>
       </div>
     
@@ -99,16 +102,18 @@
           <h3 class="rastreador-titulo">
             Study
           </h3>
-          <p class="rastreador-tempo">
+          <p class="rastreador-tempo rastreador-tempo-diario">
             0hrs <!-- daily -->
-            <!-- 4hrs weekly -->
-            <!-- 13hrs monthly -->
           </p>
-          <p class="rastreador-anterior">
+            <p class="rastreador-tempo rastreador-tempo-semanal invisivel">4hrs</p>
+            <p class="rastreador-tempo rastreador-tempo-mensal invisivel">13hrs</p>
+            
+            
+          <p class="rastreador-anterior rastreador-anterior-diario">
             Previous - 1hr <!-- daily -->
-            <!-- Previous - 7hrs weekly -->
-            <!-- Previous - 19hrs monthly -->
           </p>
+            <p class="rastreador-anterior rastreador-anterior-semanal invisivel">Previous - 7hrs</p>
+            <p class="rastreador-anterior rastreador-anterior-mensal invisivel">Previous - 19hrs</p>        
         </div>
       </div>
     
@@ -117,16 +122,20 @@
           <h3 class="rastreador-titulo">
             Exercise
           </h3>
-          <p class="rastreador-tempo">
+          <p class="rastreador-tempo rastreador-tempo-diario">
             1hr <!-- daily -->
-            <!-- 4hrs weekly -->
-            <!-- 11hrs monthly -->
           </p>
-          <p class="rastreador-anterior">
+            <p class="rastreador-tempo rastreador-tempo-semanal invisivel">4hrs</p>
+            <p class="rastreador-tempo rastreador-tempo-mensal invisivel">11hrs</p>
+            
+            
+          <p class="rastreador-anterior rastreador-anterior-diario">
             Previous - 1hr <!-- daily -->
-            <!-- Previous - 5hrs weekly -->
-            <!-- Previous - 18hrs monthly -->
           </p>
+            <p class="rastreador-anterior rastreador-anterior-semanal invisivel">Previous - 5hrs</p>
+            <p class="rastreador-anterior rastreador-anterior-mensal invisivel">Previous - 18hrs</p>
+            
+            
         </div>
       </div>
     
@@ -136,16 +145,20 @@
           <h3 class="rastreador-titulo">
             Social
           </h3>
-          <p class="rastreador-tempo">
+          <p class="rastreador-tempo rastreador-tempo-diario">
             1hr <!-- daily -->
-            <!-- 5hrs weekly -->
-            <!-- 21hrs monthly -->
           </p>
-          <p class="rastreador-anterior">
+            <p class="rastreador-tempo rastreador-tempo-semanal invisivel">5hrs</p>
+            <p class="rastreador-tempo rastreador-tempo-mensal invisivel">21hrs</p>
+           
+            
+          <p class="rastreador-anterior rastreador-anterior-diario">
             Previous - 3hrs
-            <!-- Previous - 10hrs weekly -->
-            <!-- Previous - 23hrs monthly -->
           </p>
+            <p class="rastreador-anterior rastreador-anterior-semanal invisivel">Previous - 10hrs</p>
+            <p class="rastreador-anterior rastreador-anterior-mensal invisivel">Previous - 23hrs</p>
+            
+            
         </div>
       
       </div>
@@ -156,21 +169,36 @@
           <h3 class="rastreador-titulo">
             Self Care
           </h3>
-          <p class="rastreador-tempo">
+          <p class="rastreador-tempo rastreador-tempo-diario">
             0hrs <!-- daily -->
-            <!-- 2hrs weekly -->
-            <!-- 7hrs monthly -->
+            <p class="rastreador-tempo rastreador-tempo-semanal invisivel">2hrs</p>
+            <p class="rastreador-tempo rastreador-tempo-mensal invisivel">7hrs</p>
+            
+            
           </p>
-          <p class="rastreador-anterior">
+          <p class="rastreador-anterior rastreador-anterior-diario">
             Previous - 1hr <!-- daily -->
-            <!-- Previous - 2hrs weekly -->
-            <!-- Previous - 11hrs monthly -->
           </p>
+            <p class="rastreador-anterior rastreador-anterior-semanal invisivel">Previous - 2hrs</p>
+            <p class="rastreador-anterior rastreador-anterior-mensal invisivel">Previous - 11hrs</p>
+            
+            
         </div>
         
       </div>
     </section>
-
+    <form>
+      <input type="text" id="lname" name="lname">
+      <select name="tipo">
+        <option value="work">Work</option>
+        <option value="play">Play</option>
+        <option value="study">Study</option>
+        <option value="exercise">Exercise</option>
+        <option value="social">Social</option>
+        <option value="selfcare">Self-Care</option>
+      </select> 
+      <input type="submit" value="Submit">
+    </form>
   </main>
 
   
