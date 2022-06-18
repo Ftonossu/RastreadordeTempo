@@ -2,6 +2,8 @@
     width: 80%;
     margin: 5% auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 body {
     background-color: hsl(226, 43%, 10%);

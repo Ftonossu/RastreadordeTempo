@@ -1,0 +1,22 @@
+.formulario{
+    padding-top: 20px;
+}
+.botao {
+    width: 100px;
+    height: 25px;
+    color: #fdfdfd;
+    background-color: hsl(235, 46%, 20%);
+    border: 1px solid #fdfdfd;
+}
+.lista{
+    color: #fdfdfd;
+    background-color: hsl(235, 46%, 20%);
+    font-weight: bold;
+    height: 25px;
+}
+.horas{
+    color: #fdfdfd;
+    background-color: hsl(235, 46%, 20%);
+    font-weight: bold;
+    height: 25px;
+}

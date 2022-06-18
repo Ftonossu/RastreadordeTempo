@@ -1,5 +1,6 @@
 .card-informacoes {
     height: 70%;
-    background-color: hsl(235, 45%, 61%);
+    background-color: hwb(235 44% 22%);
     border-radius: 10px;
+    padding-right: 10px;
 }
