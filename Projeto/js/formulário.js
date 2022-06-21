@@ -10,8 +10,6 @@ const titulo = document.querySelectorAll('.rastreador-titulo')
 
 console.log(rastreadorDiario[0].value)
 
-
-
 let tempoDiario = [
     '5',
     '1',
